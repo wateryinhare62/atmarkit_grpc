@@ -1,0 +1,42 @@
+// バージョンを3に指定
+syntax = "proto3";
+
+// パッケージbookinfoを開始
+package bookinfo;
+
+option csharp_namespace = "GrpcBookInfoClient";
+
+// 書籍タイプ列挙体BookType
+enum BookType {
+  BOOK = 0;
+  PAPERBACK = 1;
+  POCKET = 2;
+  MOOK = 3;
+  OTHER = 99;
+}
+  
+// 書籍メッセージBookItem
+message BookItem {
+  int32 id = 1;
+  string title = 2;
+  string author = 3;
+  string publisher = 4;
+  string isbn = 5;
+  uint32 price = 6;
+  BookType type = 7;
+}
+ 
+// 検索パラメータSearchRequest
+message SearchRequest {
+    string text = 1;
+}
+
+// 検索結果SearchResponse
+message SearchResponse {
+  int32 status_code = 1;
+  BookItem item = 2;
+}
+
+service BookInfo {
+  rpc Search(SearchRequest) returns (SearchResponse);
+}

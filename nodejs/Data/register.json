@@ -1,0 +1,47 @@
+[
+    {
+        "id": 6, 
+        "title": "Vue 3　フロントエンド開発の教科書",
+        "author": "齊藤新三",
+        "publisher": "技術評論社",
+        "isbn": "978-4-297-13072-5",
+        "price": 3600,
+        "type": "BOOK"
+    },
+    {
+        "id": 7, 
+        "title": "独習C# 第5版",
+        "author": "山田祥寛",
+        "publisher": "翔泳社",
+        "isbn": "978-4-7981-7556-0",
+        "price": 3800,
+        "type": "BOOK"
+    },
+    {
+        "id": 8, 
+        "title": "速習 ASP.NET Core - Razor Pages編",
+        "author": "山田祥寛",
+        "publisher": "Amazon",
+        "isbn": "-",
+        "price": 500,
+        "type": "OTHER"
+    },
+    {
+        "id": 9, 
+        "title": "これからはじめるVue.js 3実践入門",
+        "author": "山田祥寛",
+        "publisher": "SBクリエイティブ",
+        "isbn": "978-4-8156-1336-5",
+        "price": 3400,
+        "type": "BOOK"
+    },
+    {
+        "id": 10, 
+        "title": "基礎からしっかり学ぶC#の教科書　第3版　C# 10対応",
+        "author": "高江賢",
+        "publisher": "日経BP",
+        "isbn": "978-4-2960-8014-4",
+        "price": 2900,
+        "type": "BOOK"
+    }
+]

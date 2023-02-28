@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1, 
+        "title": "Ruby on Rails 7 ポケットリファレンス",
+        "author": "山内直",
+        "publisher": "技術評論社",
+        "isbn": "978-4-297-13062-6",
+        "price": 3200,
+        "type": "BOOK"
+    },
+    {
+        "id": 2, 
+        "title": "Androidアプリ開発の教科書 第3版 Kotlin対応",
+        "author": "齊藤新三",
+        "publisher": "翔泳社",
+        "isbn": "978-4-7981-7613-0",
+        "price": 2850,
+        "type": "BOOK"
+    },
+    {
+        "id": 3, 
+        "title": "改訂3版JavaScript本格入門",
+        "author": "山田祥寛",
+        "publisher": "技術評論社",
+        "isbn": "978-4-297-13288-0",
+        "price": 3200,
+        "type": "BOOK"
+    },
+    {
+        "id": 4, 
+        "title": "Pythonでできる! 株価データ分析",
+        "author": "片渕彼富",
+        "publisher": "森北出版",
+        "isbn": "978-4-627-85711-7",
+        "price": 2700,
+        "type": "BOOK"
+    },
+    {
+        "id": 5, 
+        "title": "速習 React 第2版",
+        "author": "山田祥寛",
+        "publisher": "Amazon",
+        "isbn": "-",
+        "price": 500,
+        "type": "OTHER"
+    }
+]

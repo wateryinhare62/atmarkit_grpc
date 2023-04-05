@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_hint">検索キーワード</string>
+    <string name="send_request">検索開始</string>
+    <string name="app_label">gRPC BookInfo Kotlin Android</string>
+    <string name="not_found">検索結果が見つかりません。</string>
+</resources>
